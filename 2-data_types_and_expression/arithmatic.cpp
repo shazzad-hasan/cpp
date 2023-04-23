@@ -15,12 +15,12 @@ int main()
   add = num1 + num2;
   sub = num1 - num2;
   multi = num1 * num2;
-  div = num1 / num2; // '/' operator returns the division of the left 
-                     // operand by the right operand
-                     // As both the operands are integers, 
-                     // if dividend is not exactly divisible by divisor, 
-                     // the division operator returns only quotient 
-                     // and the reminder is discarded.
+  div = num1 / num2; /* '/' operator returns the division of the left 
+                     operand by the right operand
+                     As both the operands are integers, 
+                     if dividend is not exactly divisible by divisor, 
+                     the division operator returns only quotient 
+                     and the reminder is discarded. */
 
   cout<<num1<<" + "<<num2<<" = "<<add<<endl;
   cout<<num1<<" - "<<num2<<" = "<<sub<<endl;

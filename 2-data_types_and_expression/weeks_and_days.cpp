@@ -1,5 +1,5 @@
 /* Write a program that reads from the user the number of days
-they traveled. The program will then print their traveling time
+they traveled and then print their traveling time
 in the format of full weeks and additional days.*/
 
 #include <iostream>

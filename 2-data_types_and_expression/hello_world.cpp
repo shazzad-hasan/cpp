@@ -1,12 +1,12 @@
 #include <iostream>
-#include <string>
+#include <string> // include string library
 using namespace std;
 
 int main(){
   string s, name;
   
   cout<<"Please write you name:"<<endl;
-  getline(cin, name);
+  getline(cin, name); // reading textinput from the user
 
   s = "Hello";
 

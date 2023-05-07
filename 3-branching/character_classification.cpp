@@ -1,3 +1,6 @@
+/* Write a program that reads from the user a character, and classifies it to
+lower case letter/ upper case letter/ digit/ not alpha-numeric character. */
+
 #include <iostream>
 using namespace std;
 

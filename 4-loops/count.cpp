@@ -10,11 +10,16 @@ int main(){
     cout<<"Please enter a positive integer: ";
     cin>>n;
 
-    counter = 1;
-    while (counter <= n){
-        cout<<counter<<endl;
-        counter++;
-    }
+    // while loop
+    // counter = 1;
+    // while (counter <= n){
+    //     cout<<counter<<endl;
+    //     counter++;
+    // }
 
+    // for loop
+    for (counter = 1; counter <= n; counter++){
+        cout<<counter<<endl;
+    }
     return 0;
 }

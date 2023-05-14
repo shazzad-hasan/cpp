@@ -73,7 +73,7 @@ int quadratic(double a, double b, double c, double& x1, double& x2){
       x1 = outX1;
       return ONE_REAL_SOLUTION;
     }
-    else {
+    else { // negative discriminant
       return NO_REAL_SOLUTION;
     }
   }

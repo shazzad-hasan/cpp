@@ -4,7 +4,7 @@ and prints their swaped values. */
 #include <iostream>
 using namespace std;
 
-void swap(int & a, int & b);
+void swap(int &a, int &b);
 
 int main(){
   int a, b;
@@ -18,7 +18,7 @@ int main(){
 }
 
 // function definition, pass-by reference
-void swap(int & a, int & b){
+void swap(int &a, int &b){
   int temp;
   temp = a;
   a = b;

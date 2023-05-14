@@ -4,25 +4,11 @@ n, k (n >= k) and prints the value of n choose k */
 #include <iostream>
 using namespace std;
 
-int factorial(int num){
-  int factRes, i;
+// function declaration
+int factorial(int num);
+int kCombination(int n, int k);
 
-  factRes = 1;
-  for (i=1; i<=num; i++){
-    factRes *= i;
-  }
-  return factRes;
-}
-
-int kCombination(int n, int k){
-  int nFact, kFact, n_kFact;
-
-  nFact = factorial(n);
-  kFact = factorial(k);
-  n_kFact = factorial(n-k);
-  return nFact / (kFact * n_kFact);
-}
-
+// the main method
 int main(){
   int n, k, nFact, kFact, n_kFact, k_comb;
 
@@ -34,4 +20,25 @@ int main(){
   cout<<n<<" choose "<<k<<" is "<<k_comb<<endl;
 
   return 0;
+}
+
+// function definition
+int factorial(int num){
+  int factRes, i;
+
+  factRes = 1;
+  for (i=1; i<=num; i++){
+    factRes *= i;
+  }
+  return factRes;
+}
+
+// function definition
+int kCombination(int n, int k){
+  int nFact, kFact, n_kFact;
+
+  nFact = factorial(n);
+  kFact = factorial(k);
+  n_kFact = factorial(n-k);
+  return nFact / (kFact * n_kFact);
 }

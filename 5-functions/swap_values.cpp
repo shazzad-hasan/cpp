@@ -17,7 +17,7 @@ int main(){
   return 0;
 }
 
-// function definition, pass-by reference
+// function definition, pass by reference
 void swap(int &a, int &b){
   int temp;
   temp = a;

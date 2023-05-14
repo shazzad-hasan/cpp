@@ -24,12 +24,14 @@ int analyzeDigits(int num, int &sumDigits){
   int currentDigit, outSumDigits, countDigits;
 
   countDigits = 0;
+  outSumDigits = 0;
   while (num > 0){
     currentDigit = num % 10;
-    sumDigits += currentDigit;
+    outSumDigits += currentDigit;
     countDigits++;
     num /= 10;
   }
+  sumDigits = outSumDigits;
   return countDigits;
 }
 

@@ -35,12 +35,23 @@ int main(){
   
   cout<<"\nValue of s is "<<s<<endl;
   cout<<"Address of s is "<<&s<<endl;
-
   cout<<"Value of sPtr1 is "<<sPtr1<<endl;
   cout<<"Value of the variable pointed by sPtr1 is "<<*sPtr1<<endl;
 
   sPtr2 = sPtr1;
   cout<<"Value of sPtr2 is "<<sPtr2<<endl;
   cout<<"Value of the variable pointed by sPtr2 is "<<*sPtr1<<endl;
+
+  // void pointer
+  void *pv;
+  int *intPtr = nullptr;
+  int i = 10;
+
+  pv = &i;
+  intPtr = (int*)pv; //void pointer can't be dereferenced unless it's cast to another type
+  cout<<"\n"<<endl;
+  cout<<intPtr<<endl; 
+  cout<<*intPtr<<endl;
+
   return 0;
 }

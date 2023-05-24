@@ -2,6 +2,7 @@
   1. How to store the address of a variable in a pointer
   2. The use of * (dereferencing / indirection operator)
   3. Use of * to set the value of the pointee (the variable being pointed to)
+  4. void pointer
   */
 
 #include <iostream>

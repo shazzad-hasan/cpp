@@ -1,4 +1,4 @@
-/* This program demonstrates the iterators in vector*/
+/* This program demonstrates the capacity in vector*/
 
 #include <iostream>
 #include <vector>

@@ -13,7 +13,7 @@ int main(){
   for (int i=1; i<=10; i++)
     v.push_back(i);
 
-  // print out the elements of vector numbers
+  // print out the elements of vector v
 
   for (int i=0; i<v.size(); i++)
     cout<<v[i]<<" ";

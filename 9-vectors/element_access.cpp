@@ -13,20 +13,17 @@ int main(){
   for (int i=1; i<=10; i++)
     v.push_back(i);
 
-  cout<<"Size: "<<v.size()<<endl;
-  cout<<"Max size: "<<v.max_size()<<endl;
-  cout<<"Capacity: "<<v.capacity()<<endl; 
-
-  v.resize(5);
-  cout<<"Size: "<<v.size()<<endl;
-  if (v.empty())
-    cout<<"Vector is empty"<<endl;
-  else 
-    cout<<"Vector isn't empty"<<endl; 
-  
   cout<<"Elements of vector v are: ";
   for (auto e:v)
     cout<<e<<" ";
+
+  cout<<"\nElement 0 is: "<<v[0]<<endl;
+  cout<<"Element at 0 is: "<<v.at(0)<<endl;
+  cout<<"Front: "<<v.front()<<endl;
+  cout<<"Back: "<<v.back()<<endl;
+
+  int* p = v.data();
+  cout<<"First element: "<<*p<<endl;
 
   return 0;
 }

@@ -14,8 +14,8 @@ int main(){
     v.push_back(i);
 
   cout<<"Elements of vector v are: ";
-  for (auto e = v.begin(); e != v.end(); e++)
-      cout<<*e<<" ";
+  for (auto e:v)
+    cout<<e<<" ";
 
   // insert 0 at the beginning
   v.insert(v.begin(), 0);
@@ -29,8 +29,8 @@ int main(){
   v.insert(v.begin()+5, 100);
 
   cout<<"\nElements of vector v are: ";
-  for (auto e = v.begin(); e != v.end(); e++)
-      cout<<*e<<" ";
+  for (auto e:v)
+    cout<<e<<" ";
 
   //remove the first element
   v.erase(v.begin());
@@ -45,8 +45,8 @@ int main(){
   v.erase(v.begin()+4);
 
   cout<<"\nElements of vector v are: ";
-  for (auto e = v.begin(); e != v.end(); e++)
-      cout<<*e<<" ";
+  for (auto e:v)
+    cout<<e<<" ";
 
   // erase the vector
   v.clear();
@@ -57,22 +57,22 @@ int main(){
   v2.assign(5, 1);
 
   cout<<"Elements of vector v1 are: ";
-  for (auto e = v1.begin(); e != v1.end(); e++)
-      cout<<*e<<" ";
+  for (auto e:v1)
+    cout<<e<<" ";
 
   cout<<"\nElements of vector v2 are: ";
-  for (auto e = v2.begin(); e != v2.end(); e++)
-      cout<<*e<<" ";
+  for (auto e:v2)
+    cout<<e<<" ";
 
   // swap v1 and v2
   v1.swap(v2);
   cout<<"\nElements of vector v1 are: ";
-  for (auto e = v1.begin(); e != v1.end(); e++)
-      cout<<*e<<" ";
+  for (auto e:v1)
+    cout<<e<<" ";
 
   cout<<"\nElements of vector v2 are: ";
-  for (auto e = v2.begin(); e != v2.end(); e++)
-      cout<<*e<<" ";
+  for (auto e:v2)
+    cout<<e<<" ";
 
   return 0;
 }

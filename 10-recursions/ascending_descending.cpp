@@ -7,9 +7,11 @@ start to end in an ascending order and then end to start in an descending order.
 using namespace std;
 
 void printAscDesc(int start, int end){
+  // base case
   if (start == end){
     cout<<start<<endl;
   }
+  // recursive step
   else {
     cout<<start<<endl;
     printAscDesc(start+1, end);

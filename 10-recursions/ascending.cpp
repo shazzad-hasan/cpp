@@ -7,23 +7,25 @@ from start to end in an ascending order. */
 using namespace std;
 
 void printAsc(int start, int end){
+  // base case
   if (start == end){
     cout<<start<<endl;
   }
+  // recursive step
   else {
     int mid;
     // // sol'n 1
-    // printAsc(start, end-1);
-    // cout<<end<<endl;
+    printAsc(start, end-1);
+    cout<<end<<endl;
 
     // // sol'n 2
     // cout<<start<<endl;
     // printAsc(start+1, end);
 
     // sol'n 3
-    mid = (start+end)/2;
-    printAsc(start, mid);
-    printAsc(mid+1, end);
+    // mid = (start+end)/2;
+    // printAsc(start, mid);
+    // printAsc(mid+1, end);
   }
 }
 

@@ -1,6 +1,6 @@
-// This program demonstrates recursion 
+/* This program demonstrates recursion 
 
-/*The program reads the start and end from the user and prints numbers 
+The program reads the start and end from the user and prints numbers 
 from start to end in an ascending order. */
 
 #include <iostream>

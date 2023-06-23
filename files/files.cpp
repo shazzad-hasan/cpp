@@ -22,6 +22,10 @@ int main(){
     //close the file
     myFile.close();
   }
+  else {
+    cout<<"Unable to open file"<<endl;
+    return 0;
+  }
 
   //open file "myfile.txt" in app (append) mode
   myFile.open("myfile.txt", ios::app);
@@ -31,6 +35,10 @@ int main(){
     myFile<<"Again\n";
 
     myFile.close();
+  }
+  else {
+    cout<<"Unable to open file"<<endl;
+    return 0;
   }
 
   /* Read the file */
@@ -44,6 +52,10 @@ int main(){
       cout<<line<<endl;
     }
     myFile.close();
+  }
+  else {
+    cout<<"Unable to open file"<<endl;
+    return 0;
   }
 
   return 0;

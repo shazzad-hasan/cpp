@@ -5,7 +5,7 @@
 using namespace std;
 
 int main(){
-  fstream inFile; // declare fstream variable
+  fstream inFile; // declare file-stream variable
   int x;
   int sum = 0;
 

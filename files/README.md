@@ -4,9 +4,9 @@ To work with files in C++, we need to include `fstream` library.
 
 There are 3 classes in the `fstream` library, which are used to create, write and read files:
 
-- `ofstream` : creates and writes to files
-- `ifstream` : reads from files
-- `fstream` : combination of `ofstream` and `ifstream`
+- `ofstream` (output file stream): creates and writes to files
+- `ifstream` (input file stream): reads from files
+- `fstream` (file stream): combination of `ofstream` and `ifstream`
 
 5 steps to create, write and read files:
 

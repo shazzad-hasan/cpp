@@ -5,13 +5,16 @@
 using namespace std;
 
 int main(){
-  fstream inFile;
+  fstream inFile; // declare fstream variable
   int x;
   int sum = 0;
 
-  inFile.open("test.txt", ios::in);
+  // open file in read mode
+  inFile.open("integers.txt", ios::in);
 
+  // check if file was opened
   if (inFile.is_open()){
+    // get file inputs and calculate the sum
     while (inFile >> x){
       sum += x;
     }
@@ -19,7 +22,9 @@ int main(){
     cout<<"Unable to open file";
     exit(1); // terminate with error
   }
+  // close the file
   inFile.close();
+
   cout<<"Sum = "<<sum<<endl;
 
   return 0;

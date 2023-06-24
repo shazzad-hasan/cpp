@@ -1,11 +1,11 @@
 #include <iostream>
-#include <fstream>
+#include <fstream> // incluse fstream for reading and writing to files
 #include <string>
 #include <climits>
 using namespace std;
 
 int main(){
-  ofstream myFile;
+  ofstream myFile; // declare output-stream variable
   string filename;
   string text;
 
@@ -16,17 +16,20 @@ int main(){
   cout<<"Please enter the text: ";
   getline(cin, text);
 
+  // open the file to write to
   myFile.open(filename);
 
+  // check that file was opened
   if (!myFile){
     cout<<"Unable to open file."<<endl;
     return 0;
   } 
-  else {
+  else { // write text to the file
     myFile<<text<<endl;
     myFile<<"This the last line."<<endl;
   }
 
+  // close the file
   myFile.close();
 
   return 0;

@@ -11,11 +11,14 @@
 - Vectors
 - Sets
 - Structures
-- Exceptions
 - Recursions
-- Searching and Sorting Algorithms
-- OOP
 - Files
+- Exceptions
+- OOP
+
+**Data Structures and Algorithms**
+
+- Searching and Sorting Algorithms
 - Linked Lists
 - Stacks and Queues
 - Trees

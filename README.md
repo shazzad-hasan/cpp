@@ -6,6 +6,7 @@
 - Loops
 - Functions
 - Arrays
+- Multidimensional Arrays
 - Strings
 - Pointers and Dynamic Storage
 - Vectors

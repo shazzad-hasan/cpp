@@ -16,7 +16,7 @@ int main(){
     cin>>numOfCoordinates;
     cout<<endl;
 
-    cout<<"Enter the coordinates: "<<endl;
+    cout<<"Enter the coordinates (separated by a space): "<<endl;
     for (int i = 0; i < numOfCoordinates; i++){
         cin>>c[i].x>>c[i].y;
     }

@@ -3,7 +3,7 @@
 #include <iostream>
 using namespace std;
 
-struct person {     // 
+struct person {     // structure declaration
     string name;    // member 
     int age;        // member
     double weight;  // member

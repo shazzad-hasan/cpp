@@ -1,14 +1,16 @@
+/* Program illustrating structure data type in C++ */ 
+
 #include <iostream>
 using namespace std;
 
-struct Person {     // structure declaration
+struct person {     // 
     string name;    // member 
     int age;        // member
     double weight;  // member
 };
 
 int main(){
-    Person p;
+    person p;
     cout<<"Enter your name: ";
     getline(cin, p.name);
     cout<<"Enter your age: ";

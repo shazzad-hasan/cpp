@@ -1,6 +1,7 @@
 /* Program illustrating structure data type in C++ */ 
 
 #include <iostream>
+#include <string>
 using namespace std;
 
 struct person {     // structure declaration

@@ -1,6 +1,7 @@
 /* Program illustrating nested structures in C++ */
 
 #include <iostream>
+#include <string>
 using namespace std;
 
 struct family {

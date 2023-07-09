@@ -12,9 +12,9 @@
 - Vectors
 - Sets
 - Structures
-- Recursions
 - Files
 - Exceptions
+- Recursions
 - OOP
 
 **Data Structures and Algorithms**

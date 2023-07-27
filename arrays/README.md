@@ -6,7 +6,9 @@
 
 - The elements are accessed using the 0-based index system.
 
-- address of arr[i] = address arr begins + i * size of each element in arr
+  ​		address of arr[i] = address arr begins + i * size of each element in arr
+
+##### Syntactic Notes
 
 - Array's physical size must be a constant and must be given at declaration.
 
